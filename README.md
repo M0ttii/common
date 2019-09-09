@@ -20,3 +20,22 @@ userRepository.createUser();
 //Get a User by his UniqueID
 userRepository.findByUniqueID(UUID)
 ```
+## Repositories
+**Following repositories are available at the moment:**
+
+------------
+
+###### Users
+- UserRepository
+###### Punishment System
+- PunishmentRepository
+- PointRepository
+- TemplateRepository
+- ReportRepository
+###### Message System (Punish Messages, Report Messages, Global Prefixes etc.)
+- MessageRepository
+###### Map Repository (Spawn points etc, Not implemented yet!!!)
+- MapRepository
+
+
+
