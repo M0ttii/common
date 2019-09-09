@@ -38,4 +38,38 @@ userRepository.findByUniqueID(UUID)
 - MapRepository
 
 
+### User Repository
+```
+#findByUniqueId()
+#findByLatestName()
+#createUser()
+```
+### Punishment Repository
+    #createPunishment()
+    #getPunishmentHistory
+    #getPunishmentByPlayerUUID()
+    #isBanned()
+### Point Repository
+    #findByUniqueId()
+    #getPoints()
+    #addPoints()
+    #removePoints()
+### Template Repository
+    #createTemplate()
+    #getTemplateById()
+    #getTemplateByName()
+    #getAviableReasons()
+    #getTemplates()
+    #getDifferentPTemplates()
+    #getTemplateByPlayerPoints()
+### Report Repository
+    #getReport()
+    #getActiveReport()
+    #createReport()
+### Message Repository
+    #getByName()
+    #createMessage()
+
+
+
 
